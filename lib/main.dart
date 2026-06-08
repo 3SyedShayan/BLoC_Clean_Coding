@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'bloc/counter/counter_bloc.dart';
+import 'views/counter_view.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +13,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return BlocProvider(
+      create: (context) => CounterBloc(),
+      child: const MaterialApp(home: Scaffold(body: CounterView())),
     );
   }
 }

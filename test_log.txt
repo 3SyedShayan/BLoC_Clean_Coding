@@ -1,0 +1,22 @@
+START: Current counter is 0
+AFTER_INCREMENT: Current counter is 1
+AFTER_INCREMENT: Current counter is 2
+AFTER_INCREMENT: Current counter is 3
+AFTER_INCREMENT: Current counter is 4
+AFTER_INCREMENT: Current counter is 5
+AFTER_INCREMENT: Current counter is 6
+AFTER_INCREMENT: Current counter is 7
+AFTER_INCREMENT: Current counter is 8
+AFTER_INCREMENT: Current counter is 9
+AFTER_INCREMENT: Current counter is 10
+AFTER_DECREMENT: Current counter is 9
+AFTER_DECREMENT: Current counter is 8
+AFTER_DECREMENT: Current counter is 7
+AFTER_DECREMENT: Current counter is 6
+AFTER_DECREMENT: Current counter is 5
+AFTER_DECREMENT: Current counter is 4
+AFTER_DECREMENT: Current counter is 3
+AFTER_DECREMENT: Current counter is 2
+AFTER_DECREMENT: Current counter is 1
+AFTER_DECREMENT: Current counter is 0
+DONE
